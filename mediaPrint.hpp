@@ -1,5 +1,4 @@
-#ifndef MEDIA_PRINT_HPP
-#define MEDIA_PRINT_HPP
+#pragma once
 
 void mediaPrint() {
     std::ifstream key_file("key.json");
@@ -81,7 +80,3 @@ void mediaPrint() {
     // 
     // to get said "name" "descritpion" "type" we gotta define them, so we turning em into strings but there's instances where "title" and "name" mean the same shit just happens to depend if its a show or a movie soooooo we gotta do this THEEEE LONGGGGGGGGG WAY ( i could've just done "?" instead of all this shit but i kinda like doing it this way for now bc it helps me read the code back better, code is self explanatory even for a retard like me and then the print out fuction boom bam slam it works idk
 };
-
-
-
-#endif
