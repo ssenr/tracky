@@ -1,5 +1,4 @@
-#ifndef PCH_HPP
-#define PCH_HPP
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -11,5 +10,3 @@
 #include <nlohmann/json.hpp>
 
 using json = nlohmann::json;
-
-#endif
