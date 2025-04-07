@@ -23,3 +23,11 @@ CMakeCache.txt
 
 #
 key.json
+
+#
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+.vs/
+
